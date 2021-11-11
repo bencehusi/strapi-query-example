@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attribute_lists",
+  "info": {
+    "name": "Attribute list"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "attribute_type": {
+      "model": "attribute-types"
+    }
+  }
+}

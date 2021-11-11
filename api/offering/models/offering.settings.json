@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "offerings",
+  "info": {
+    "name": "Offering"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "key": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "description": {
+      "type": "text"
+    },
+    "attribute_list": {
+      "collection": "attribute-list"
+    }
+  }
+}
